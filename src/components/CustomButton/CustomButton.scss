@@ -1,0 +1,26 @@
+@import "src/styles/variables";
+
+#custom-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .custom-button-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: $black;
+    width: 310px;
+    height: 60px;
+    background: none;
+    cursor: pointer;
+
+    p {
+      margin-left: 14px;
+    }
+  }
+}

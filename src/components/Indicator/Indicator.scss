@@ -1,0 +1,9 @@
+#indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .indicator-item:not(:last-child) {
+    margin-right: 8px;
+  }
+}

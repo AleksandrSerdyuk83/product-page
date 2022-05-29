@@ -1,0 +1,69 @@
+@import "styles/fonts";
+@import "styles/variables";
+@import "components/Spinner/Spinner";
+@import "pages/ProductPage";
+@import "components/Product/ProductDescription/ProductDescription";
+@import "components/Product/ProductVideoReview/ProductVideoReview";
+@import "components/Product/ProductQuestions/ProductQuestions";
+@import "components/Product/ProductWrittenReviews/ProductWrittenReviews";
+@import "components/MainPreview/MainPreview";
+@import "components/Lable/Label";
+@import "components/Indicator/Indicator";
+@import "components/NavigationCard/NavigationCard";
+@import "components/ProductPrice/ProductPrice";
+@import "components/SizesBlock/SizesBlock";
+@import "components/SizesBlock/SizesCard";
+@import "components/CustomButton/CustomButton";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+body {
+  background: #F5F5F5;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background: $custom-white;
+}
+
+.fs-12 {
+  font-size: $fs-12;
+}
+
+.fs-14 {
+  font-size: $fs-14;
+}
+
+.fs-16 {
+  font-size: $fs-16;
+}
+
+.fs-20 {
+  font-size: $fs-20;
+}
+
+.fs-24 {
+  font-size: $fs-24;
+}
+
+.bg-vinous {
+  background: $vinous;
+}
+
+.bg-light-brown {
+  background: $light-brown;
+}
+
+.bg-light-black {
+  background: $light-black;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}

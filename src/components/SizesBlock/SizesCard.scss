@@ -1,0 +1,45 @@
+@import "src/styles/variables";
+
+#size-card {
+  position: relative;
+
+
+  .size-card-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 8px 0 0;
+    padding: 8px 24px;
+    width: 60px;
+    height: 40px;
+    background: $custom-white;
+    border: 1px solid $gray;
+    border-radius: 7px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $black;
+    cursor: pointer;
+  }
+
+  .size-card-icon {
+    position: absolute;
+    top: 6%;
+    left: 72%;
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .available {
+    background: #EEEEEE!important;
+    cursor: default;
+  }
+
+
+
+}

@@ -1,0 +1,25 @@
+@import "src/styles/variables";
+
+#product-price {
+  .product-description-price {
+    display: flex;
+    align-items: baseline;
+    margin-top: 16px;
+
+    .price-nominal {
+      margin-right: 4px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: $light-brown;
+    }
+
+    .price-discount {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration-line: line-through;
+      color: $gray;
+    }
+  }
+}
